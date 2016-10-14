@@ -2,6 +2,7 @@ h1 {
   color: black;
   text-align: center;
   font-family: 'Roboto', sans-serif;
+  opacity: 0.5;
 
 }
 body{
