@@ -3,12 +3,24 @@ h1 {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   text-shadow: 0.25px 0.25px 0.25px #000000;
-  font-weight: 700;
+  font-weight: bold;
 
 }
 body{
   background-image: url("http://www.incomeactivator.com/images/freebg1.jpg");
   background-repeat: no-repeat;
-  border-bottom: 100px;
+  border-bottom-style: solid;
   border-color: black;
+  border-width: thick;
+  border-radius: 500px;
+}
+
+#bottom{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 5px;
+  border-bottom-style: ridge;
+  border-color: black;
+  border-width: thick;
 }
