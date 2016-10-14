@@ -9,4 +9,6 @@ h1 {
 body{
   background-image: url("http://www.incomeactivator.com/images/freebg1.jpg");
   background-repeat: no-repeat;
+  border-bottom: 100px;
+  border-color: black;
 }
