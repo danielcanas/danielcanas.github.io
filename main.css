@@ -2,7 +2,8 @@ h1 {
   color: black;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  opacity: 0.5;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+  font-weight: 700;
 
 }
 body{
