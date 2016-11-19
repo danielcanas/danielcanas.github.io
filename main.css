@@ -1,26 +1,13 @@
-h1 {
-  color: black;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
-  font-weight: bold;
+html {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+  }
 
-}
-body{
-  background-image: url("http://www.incomeactivator.com/images/freebg1.jpg");
-  background-repeat: no-repeat;
-  border-bottom-style: solid;
-  border-color: black;
-  border-width: thick;
-  border-radius: 500px;
-}
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
 
-#bottom{
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  height: 5px;
-  border-bottom-style: ridge;
-  border-color: black;
-  border-width: thick;
-}
+  main {
+    flex: 1 0 auto;
+  }
