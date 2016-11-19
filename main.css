@@ -1,13 +1,12 @@
 html {
     font-family: GillSans, Calibri, Trebuchet, sans-serif;
-    background-color: blue;
+
   }
 
   body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background-color: blue;
 
   }
 
@@ -15,3 +14,5 @@ html {
     flex: 1 0 auto;
     background-color: blue;
   }
+
+  $('body').backgroundcolor(blue);
