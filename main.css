@@ -7,11 +7,10 @@ html {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background-color: lightblue;
 
   }
 
   main {
     flex: 1 0 auto;
-    background-color: blue;
+    background-color: lightblue;
   }
