@@ -1,20 +1,48 @@
-html {
+
+  html{
+
     font-family: GillSans, Calibri, Trebuchet, sans-serif;
+    background-color: white;
 
   }
 
-  body {
+  .spacing{
+
+    padding-left: 70px;
+
+  }
+
+  #main-list{
+    font-family: Futura PT;
+    font-size: 36px;
+    font-weight: 500;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-radius: 30px;
     display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+    margin-left: 275px;
+    padding: 5px;
+    margin-top: 20px;
+    border-top-color: white;
+    border-bottom-color: white;
+}
 
+  .jumbotron{
+    font-family: Futura PT;
+    background-color: lightblue !important;
   }
 
-  main {
-    flex: 1 0 auto;
-    background-color: lightblue;
+  #computer-science-major{
+    font-family: Futura PT;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
-  .row {
-    background-color: orange;
+  #border-computer-science{
+    border-style: solid;
+    margin-right: 35%;
+    margin-left: 35%;
+    border-radius: 25px;
+    border-color: black;
   }
