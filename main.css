@@ -2,16 +2,19 @@
   html{
 
     background-color: white;
+    background-color: lightblue;
 
   }
 
   body{
 
     font-family: Futura PT !important;
+    background-color: lightblue !important;
 
   }
 
   header nav{
+
     display: flex;
 
   }
@@ -21,9 +24,10 @@
   }
 
   .col-sm-6{
-    background-color: red !important;
+    margin-top: 10px;
+    background-color: white;
   }
 
-  nav h1{
-    text-align: center;
+  #margin-jumbotron{
+    margin-top: 20px;
   }
