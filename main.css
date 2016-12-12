@@ -1,7 +1,7 @@
 
   html{
 
-    background-color: white;
+
     background-color: lightblue;
 
   }
@@ -25,9 +25,13 @@
 
   .col-sm-6{
     margin-top: 10px;
-    background-color: white;
+    background-color: lightblue !important;
   }
 
   #margin-jumbotron{
     margin-top: 20px;
+  }
+
+  .jumbotron{
+    background-color: lightblue !important;
   }
