@@ -1,31 +1,19 @@
-
-  html{
-
-
-    background-color: lightblue;
-
-  }
-
   body{
 
     font-family: Futura PT !important;
     background-color: lightblue !important;
 
-  }
-
-  header nav{
-
-    display: flex;
 
   }
 
-  #padding-left{
-    padding-left: 40px;
+  ul{
+    font-size: 20px;
   }
 
-  .col-sm-6{
+
+  .col-sm-8{
     margin-top: 10px;
-    background-color: lightblue !important;
+    
   }
 
   #margin-jumbotron{
@@ -34,4 +22,13 @@
 
   .jumbotron{
     background-color: lightblue !important;
+  }
+
+
+  .navbar-header{
+
+  }
+
+  #footer-text-color{
+    color: white;
   }
