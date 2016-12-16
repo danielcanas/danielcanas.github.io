@@ -8,12 +8,14 @@
 
   ul{
     font-size: 20px;
+    background-color: green !important;
+    text-align: center;
   }
 
 
-  .col-sm-8{
+  .col-sm-12{
     margin-top: 10px;
-    
+    background-color: lightblue !important;
   }
 
   #margin-jumbotron{
@@ -26,9 +28,15 @@
 
 
   .navbar-header{
-
+    background-color: red !important;
+    text-align: center;
   }
 
   #footer-text-color{
     color: white;
+  }
+
+  .col-sm-4{
+    background-color: green !important;
+    display: inline-flex;
   }
