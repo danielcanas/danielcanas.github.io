@@ -1,13 +1,16 @@
   @font-face {
   font-family: Futura PT;
-  src: url(FuturaPTMedium.otf);
+  src: url(font/FuturaPTMedium.otf);
   }
 
   body{
     font-family: Futura PT !important;
-    background-image: url(wood-wall.jpg);
+    background-image: url(../background/wood-wall.jpg);
     background-size: cover;
     background-repeat: no-repeat
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
   }
 
   .container{
