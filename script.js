@@ -1,3 +1,4 @@
-function buttonClick(){
-  $(#home).
-}
+$(document).ready(function(){
+
+
+});
