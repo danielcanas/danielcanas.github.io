@@ -1,5 +1,6 @@
 <?php
 
+if ($_POST['submit']) {
   $name = $_POST['name'];
   $email= $_POST['email'];
   $message = $_POST['message'];
@@ -8,5 +9,6 @@
 
   mail($to, $subject, $message, "From: " . $name);
   echo "Your message has been sent";
+}
 
 ?>
