@@ -4,7 +4,6 @@ $(document).ready(function() {
     var email   = document.getElementById('email');
     var message = document.getElementById('message');
 
-      else {
       $.ajax({
         method: 'POST',
         url: '//formspree.io/danielcanas10@gmail.com',
@@ -13,6 +12,6 @@ $(document).ready(function() {
       });
       e.preventDefault();
       $(this).get(0).reset();
-    }
+
   });
 });
