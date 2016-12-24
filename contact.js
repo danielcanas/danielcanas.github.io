@@ -10,6 +10,6 @@ $(document).ready(function() {
         data: $('#contact-form').serialize(),
         datatype: 'json'
       });
-    };
+    });
   });
 });
