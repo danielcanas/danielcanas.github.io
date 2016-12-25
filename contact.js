@@ -1,4 +1,4 @@
-$(document).ready(function() {
+/*$(document).ready(function() {
   $('#contact-form').submit(function(e) {
 
 
@@ -7,3 +7,4 @@ $(document).ready(function() {
 
   });
 });
+*/
