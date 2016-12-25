@@ -1,11 +1,11 @@
 $(document).ready(function(){
 
-    $("#hidden").hide();
+  $("#form").hide();
 
-    $("#contact").click(function(){
-      $("#hide").fadeOut("slow");
-      $("#hidden").fadeIn("slow");
-    });
+  $("#contact").click(function(){
+    $("#jumbo").fadeOut("slow");
+    $("#form").fadeIn("slow");
+  });
 
 
 });
