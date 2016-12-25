@@ -1,8 +1,8 @@
 $(document).ready(function() {
   $('#contact-form').submit(function(e) {
 
-    
-    return false;
+
+    window.location = "http://danielcanas.com/contact.html";
 
 
   });
