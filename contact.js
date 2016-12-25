@@ -1,10 +1,9 @@
-/*$(document).ready(function() {
+$(document).ready(function() {
   $('#contact-form').submit(function(e) {
 
-      $(".form").fadeOut("slow");
+      $("#contact-form").fadeOut("slow");
 
 
 
   });
 });
-*/
