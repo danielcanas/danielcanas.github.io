@@ -2,12 +2,12 @@ $(document).ready(function(){
 
   $("#form").hide();
 
-  $(".element").typed({
-        strings: ["Student.", "Developer.", "Programmer."],
-        typeSpeed: 60,
-        backspeed: 60,
-        loop: true
-      });
+  $('.tlt').textillate({
+    minDisplayTime: 1000,
+    in: { effect: 'flipInX', sync: true },
+    out :{ delay: 3, effect: 'fadeOut', sync: true},
+    loop: true
+  });
 
   $("#contact").click(function(){
     $("#jumbo").fadeOut("slow");
