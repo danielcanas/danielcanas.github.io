@@ -5,12 +5,6 @@ src: url(../font/FuturaPTMedium.otf);
 
 body{
   font-family: Futura PT !important;
-  background-image: url(../background/wood-wall.jpg);
-  background-size: cover;
-  background-repeat: no-repeat
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
 }
 
 h1{
@@ -22,6 +16,12 @@ h1{
   height: 100%;
   position: fixed;
   background-color: transparent !important;
+  background-image: url(../background/wood-wall.jpg);
+  background-size: cover;
+  background-repeat: no-repeat
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .nav{
@@ -43,4 +43,8 @@ h1{
   top: 50%;
   left:50%;
   transform: translate(-50%,-50%);
+}
+
+.page-header{
+  padding-top: 10px;
 }
