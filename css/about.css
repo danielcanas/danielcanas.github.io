@@ -21,7 +21,7 @@ body{
 
 .navbar-default{
   background-color: rgba(248, 248, 248, 0.1);
-  border-color: rgba(231, 231, 231, 0.2);
+  border-color: rgba(231, 231, 231, 0.1);
 }
 
 .nav > li {
