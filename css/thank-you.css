@@ -5,27 +5,48 @@ src: url(../font/FuturaPTMedium.otf);
 
 body{
   font-family: Futura PT !important;
-}
-
-h1{
-  color: white;
-}
-
-.container{
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  background-color: transparent !important;
   background-image: url(../background/wood-wall.jpg);
   background-size: cover;
   background-repeat: no-repeat
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  padding-top: 65px;
+}
+
+h1{
+  color: white;
 }
 
 .nav{
-  font-size: 20px;
+  font-size: 1.5em;
+  white-space: nowrap;
+}
+
+.navbar-default{
+  background-color: rgba(248, 248, 248, 0.1);
+  border-color: rgba(231, 231, 231, 0.1);
+}
+
+.nav > li {
+  display: inline;
+}
+.nav > li > a{
+  display: inline;
+  color: white !important;
+}
+
+.fifty{
+  height: 50px;
+}
+
+.vert{
+  margin-top: 12px;
+}
+
+.navbar-right {
+  float: right!important;
+  margin-right: -10px;
 }
 
 .btn{
