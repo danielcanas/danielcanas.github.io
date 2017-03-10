@@ -21,7 +21,31 @@ body{
   position: absolute;
   top: 50%;
   left:50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%,20%);
+}
+
+h1{
+  display: inline-block;
+  color: white;
+  font-style: italic;
+}
+
+#trans{
+  background-color: transparent !important;
+  background: transparent !important;
+  border-style: solid;
+  border-color: white;
+  border-width: thin;
+  border-radius: 10px;
+}
+
+#trans:hover{
+  background-color: transparent !important;
+  background: transparent !important;
+  border-style: solid;
+  border-width: thick;
+  border-color: white;
+  border-radius: 10px;
 }
 
 .nav{
