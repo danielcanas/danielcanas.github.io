@@ -2,6 +2,10 @@
 font-family: Futura PT;
 src: url(../font/FuturaPTMedium.otf);
 }
+@font-face {
+font-family: Tradizional DEMO;
+src: url(../font/tradizional DEMO.otf);
+}
 
 body{
   font-family: Futura PT !important;
@@ -27,7 +31,8 @@ body{
 h1{
   display: inline-block;
   color: white;
-  font-style: italic;
+  font-family: Tradizional Demo !important;
+  font-size: 65px;
 }
 
 #trans{
