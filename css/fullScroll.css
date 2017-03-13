@@ -1,0 +1,168 @@
+@font-face {
+font-family: Futura PT;
+src: url(../font/FuturaPTMedium.otf);
+}
+
+@font-face {
+font-family: Tradizional DEMO;
+src: url(../font/tradizionalDEMO.otf);
+}
+
+body{
+  font-family: Futura PT !important;
+}
+
+
+.jumbotron{
+  width: 100%;
+  background-color: transparent !important;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.btn{
+  background-color: transparent !important;
+  font-weight: lighter;
+  color: white;
+}
+
+.nav{
+  font-size: 1.5em;
+  white-space: nowrap;
+}
+
+.navbar-default{
+  background-color: rgba(248, 248, 248, 0.1);
+  border-color: rgba(231, 231, 231, 0.1);
+}
+
+.nav > li {
+  display: inline;
+}
+.nav > li > a{
+  display: inline;
+  color: white !important;
+}
+
+form{
+  color: white;
+  border-style: solid;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+input:focus, textarea:focus {
+    border: 1px solid #97d6eb;
+}
+
+#button{
+  color: white;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid;
+  border-color: white;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  width: 100px;
+  font-size: 30px;
+}
+
+#button:hover{
+  color: black;
+  border-color: black;
+}
+
+label{
+  font-size: 15px;
+}
+
+.fifty{
+  height: 50px;
+}
+
+.vert{
+  margin-top: 12px;
+  padding-right: 1em;
+}
+
+.navbar-right {
+  float: right!important;
+  margin-right: -10px;
+}
+
+#page1{
+  height: 100%;
+  background: #6699ff; /* fallback for old browsers */
+}
+
+#page2{
+  height: 100%;
+  background: #00ff99; /* fallback for old browsers */
+}
+
+#page3{
+  height: 100%;
+  background: #ff9933; /* fallback for old browsers */
+}
+
+#page4{
+  height: 100%;
+  background: #cc99ff; /* fallback for old browsers */
+}
+
+div h1{
+  color: white;
+}
+
+div p{
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+#projects{
+  color: white;
+  font-family: Tradizional DEMO, Futura PT !important;
+  font-size: 65px;
+  padding-top: 1em;
+}
+
+#trans{
+  background-color: transparent !important;
+  background: transparent !important;
+  border-style: solid;
+  border-color: white;
+  border-width: thin;
+  border-radius: 10px;
+}
+
+#trans:hover{
+  background-color: transparent !important;
+  background: transparent !important;
+  border-style: solid;
+  border-width: thick;
+  border-color: white;
+  border-radius: 10px;
+}
+
+#test{
+  width: 100%;
+  background-color: transparent !important;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,20%);
+}
+
+#contact-header{
+  padding-top: 1em;
+}
+
+#about-me-header{
+  padding-top: 1em;
+}
