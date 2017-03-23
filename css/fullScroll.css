@@ -96,22 +96,22 @@ label{
 
 #page1{
   height: 100%;
-  background: #6699ff; /* fallback for old browsers */
+  background: #6699ff;
 }
 
 #page2{
   height: 100%;
-  background: #00cc00; /* fallback for old browsers */
+  background: #ffcc66;
 }
 
 #page3{
-  height: 100%;
-  background: #ff9933; /* fallback for old browsers */
+  height: 200%;
+  background: #8066ff;
 }
 
 #page4{
   height: 100%;
-  background: #cc99ff; /* fallback for old browsers */
+  background: #ff8066;
 }
 
 div h1{
@@ -134,19 +134,24 @@ div p{
 #trans{
   background-color: transparent !important;
   background: transparent !important;
-  border-style: solid;
-  border-color: white;
-  border-width: thin;
-  border-radius: 10px;
+  border-style: none;
 }
 
-#trans:hover{
+
+#picpalLogo{
   background-color: transparent !important;
   background: transparent !important;
-  border-style: solid;
-  border-width: thick;
-  border-color: white;
-  border-radius: 10px;
+  border-style: none;
+  height: 250px;
+  width: 250px;
+}
+
+#musocracyLogo{
+  background-color: transparent !important;
+  background: transparent !important;
+  border-style: none;
+  height: 250px;
+  width: 250px;
 }
 
 #test{
@@ -156,7 +161,8 @@ div p{
   position: absolute;
   top: 50%;
   left:50%;
-  transform: translate(-50%,20%);
+  transform: translate(-50%, 150%);
+  border-style: solid;
 }
 
 #contact-header{
@@ -165,4 +171,34 @@ div p{
 
 #about-me-header{
   padding-top: 1em;
+}
+
+#projects-header{
+  padding-top: 1em;
+}
+
+#picPalTrans{
+  background-color: transparent !important;
+  background: transparent !important;
+  border-style: none;
+}
+
+#picJumbo{
+  width: 100%;
+  background-color: transparent !important;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,20%);
+}
+
+#musocracyJumbo{
+  width: 100%;
+  background-color: transparent !important;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,20%);
 }
